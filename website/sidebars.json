@@ -1,0 +1,16 @@
+{
+  "docs": {
+    "Overview": ["introduction/about", "introduction/users", "introduction/events"],
+    "Fundamentals": ["fundamentals/overview"],
+    "Android": ["android/overview", "android/user-tracking", "android/event-tracking", "android/push-notification", "android/settings", "android/troubleshooting"],
+    "iOS": ["ios/overview"],
+    "Website": ["web/overview", "web/user-tracking", "web/event-tracking", "web/push-notification", "web/settings", "web/troubleshooting"],
+    "Integration": ["integration/overview"],
+    "REST APIs": ["rest-apis/overview"],
+    "Examples": ["examples/overview"],
+    "Others": ["others/overview"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
