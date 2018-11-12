@@ -14,7 +14,7 @@ const users = [
     caption: 'Amit',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
+    image: '/img/facicon.png',
     infoLink: 'https://www.linkedin.com/in/amitlamba',
     pinned: false,
   },
@@ -42,14 +42,15 @@ const siteConfig = {
     {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
+    {href: 'https://userndot.com', label: 'Try UserNDot'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/favicon.png',
+  footerIcon: 'img/favicon.png',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
@@ -82,7 +83,12 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [
+      'https://buttons.github.io/buttons.js',
+      'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+      '/d/js/code-block-buttons.js',
+  ],
+  stylesheets: ['/d/css/code-block-buttons.css'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -90,8 +96,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: 'img/favicon.png',
+  twitterImage: 'img/favicon.png',
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

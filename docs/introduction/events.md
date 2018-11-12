@@ -24,3 +24,15 @@ defined as the events you define explicitly in your application, while System Ev
 events UserNDot tracks automatically.
 
 ## Event Attributes
+
+| Name | Type | Options | Description |
+|---|---|---|---|
+| `name` | String `mandatory` | | Name of the event (Should be unique) |
+| `latitude` | String | | Latitude of the location of user `Note: Latidude and Logitude should be given in pair`|
+| `longitude` | String | | Longitude of the location of user `Note: Latidude and Logitude should be given in pair`|
+| `country` | String | | Name of country |
+| `state` | String | | Name of state |
+| `city` | String | | Name of city |
+| `lineItem` | List of LineItem | | Fields of a single line item are: price (Integer), currency (String), product (String), categories(List of String), tags(List of String), quantity(Integer), properties(Map of <String, Any>) |
+| `attributes` | Map of <String, Any> | | Key Value pairs for custom event attributes |
+
