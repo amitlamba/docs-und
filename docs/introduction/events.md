@@ -23,7 +23,14 @@ Events could be classified as Custom Events and System Events. Custom Events cou
 defined as the events you define explicitly in your application, while System Events are the 
 events UserNDot tracks automatically.
 
+### List of System Events
+| Event Name | Description |
+|---|---|
+|`App Uninstalled`| Event is triggered when a mobile app is uninstalled |
+
 ## Event Attributes
+
+### List of Event Attributes
 
 | Name | Type | Options | Description |
 |---|---|---|---|

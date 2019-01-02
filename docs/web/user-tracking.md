@@ -4,4 +4,5 @@ title: User Tracking
 sidebar_label: User Tracking
 ---
 
-UserNDot
+User tracking on UserNDot is very simple and straight forward.
+There are some properties, which are 
