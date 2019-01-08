@@ -23,10 +23,25 @@ Events could be classified as Custom Events and System Events. Custom Events cou
 defined as the events you define explicitly in your application, while System Events are the 
 events UserNDot tracks automatically.
 
+### System Events
+
+System events are the events, which are tracked automatically by the system, without your intervention.
+
 ### List of System Events
 | Event Name | Description |
 |---|---|
 |`App Uninstalled`| Event is triggered when a mobile app is uninstalled |
+|`Notification Sent`| Event is triggered when an email / sms / notification is sent corresponding to any campaign |
+|`Notification Received`| Event is triggered when an email / sms / notification is successfully received corresponding to any campaign |
+|`Notification Clicked`| Event is triggered when an email / sms / notification is clicked |
+
+### Cusom Events
+
+Custom events are the events which are tracked by you by inserting a small tracking code.
+A custom event contains, name of the event (mandatory) and attributes (optional).
+Event arrtibutes are key value pairs and could be any property you want to associate with the event.
+For example, with an event `Searched` you may like to associate attributes like `searchTerm` : "Trouser",
+`category`: "Clothes"
 
 ## Event Attributes
 
