@@ -6,11 +6,18 @@ sidebar_label: Users
 
 Users means users of your website or mobile app, who uses your website, do some activity on your
 website like visit a page or a screen, take some action like clicks some button, buy a product or service etc.
+
+The benefit of adding more information to a UserNDot user profile is the ability to create a user segment for 
+people that have a specific profile property you define, and then build a campaign to engage with that segment. 
+The second benefit of adding more information to a UserNDot user profile is the ability to personalize your 
+campaign messaging with information.
+
+#### Known and unknown users
+
 Your application could have known or unknown users.
 Known users could be those users who may be logged in or registered on your application or website
 while unknown users could be those who have just visited on your website and you do not know who they are.
-Unknown users could be converted to known users later after they provide some information 
-or by logging or registering.
+Unknown users could be converted to known users later after they provide some information by logging in or registering.
 
 Once a user is traced or known, she could be an existing or a new user.
 If you are integrated with UserNDot, we keep track of all your known and unknown users and all the activity they do.
@@ -18,7 +25,9 @@ Along with the events, UserNDot also captures the location, device, IP address, 
 mobile app details, etc.
 Once a user is known, all the information which was tracked while the user was
 unknown also gets automatically marked to the corresponding known user. All the information which is already tracked by
-you on your website or mobile app could also be added in some predefined fields or custom fields.
+you on your mobile app or website could also be added in some predefined fields or custom fields.
+
+> **Important :** Whenever an unknown user is tracked, all the information of unknown user, gets associated with the known user
 
 ## User Attributes
 
