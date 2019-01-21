@@ -11,7 +11,7 @@ App Uninstalled, etc could also be tracked as events.
 
 While tracking events, please be careful that the name of the events are unique and 
 consistent over your application and across devices. 
-> **For Example**:  An event named `Xyz` in AndroidApp should be named `Xyz` 
+> **For Example**:  An event named `Add to cart` in Android App should be named `Add to cart` and not `Add To Cart`
 in Web application as well if the purpose of the event is same.
 
 > **Caution**: Name of the Event is case sensitive. 
@@ -35,7 +35,7 @@ System events are the events, which are tracked automatically by the system, wit
 |`Notification Received`| Event is triggered when an email / sms / notification is successfully received corresponding to any campaign |
 |`Notification Clicked`| Event is triggered when an email / sms / notification is clicked |
 
-### Cusom Events
+### Custom Events
 
 Custom events are the events which are tracked by you by inserting a small tracking code.
 A custom event contains, name of the event (mandatory) and attributes (optional).
@@ -44,6 +44,8 @@ For example, with an event `Searched` you may like to associate attributes like 
 `category`: "Clothes"
 
 ## Event Attributes
+Event attributes can be defined as the property of an event. For Example an event `Charged` can have attributed
+`Item`,`Quantity`,`Price` and `Amount`.
 
 ### List of Event Attributes
 

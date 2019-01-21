@@ -4,19 +4,24 @@ title: Users
 sidebar_label: Users
 ---
 
-Users means users of your website or mobile app, who uses your website, do some activity on your
-website like visit a page or a screen, take some action like clicks some button, buy a product or service etc.
+## Overview
+Users means users of your website or mobile app, who open your mobile app or visit your website, do some activity on your
+app like visit a page or a screen, take some action like clicks some button, buy a product or service etc.
 
 The benefit of adding more information to a UserNDot user profile is the ability to create a user segment for 
 people that have a specific profile property you define, and then build a campaign to engage with that segment. 
 The second benefit of adding more information to a UserNDot user profile is the ability to personalize your 
 campaign messaging with information.
 
-#### Known and unknown users
+### Categorizing users
+
+1. Known Users
+2. Unknown Users
+3. Customers
 
 Your application could have known or unknown users.
-Known users could be those users who may be logged in or registered on your application or website
-while unknown users could be those who have just visited on your website and you do not know who they are.
+Known users could be those users who may be logged in or registered on your mobile app or website
+while unknown users could be those who have just installed your mobile app or visited on your website and you do not know who they are.
 Unknown users could be converted to known users later after they provide some information by logging in or registering.
 
 Once a user is traced or known, she could be an existing or a new user.
@@ -64,6 +69,10 @@ list of predefined attribute, you could use custom attribute.
 | `additionalInfo` | Map<String, String> | Both key and value are String | Key Value pair of the user |
 
 
+> **Important :** Mobile number should start with country code e.g. For US if your contact number is **+1 (666) 666-6666** you
+should send **16666666666** as a valid mobile number. Similarly in India if your contact number is +91 999 999 9999 you should send
+919999999999 as a valid mobile number.
+
 ### Custom user attributes
 
 Any attribute which is not specified in predefined user attributes, could be specified by you with custom user 
@@ -77,6 +86,20 @@ An example of a custom user attribute could be
 
 While sending a message, there custom attributes could be used as fillers in your message. The template parser would
 automatically parse these fillers and replace them with the specified values for that user.
+
+## Seraching or finding users
+
+Users could be searched from your account in 2 ways:
+1. Searching directly by Identities.
+2. Searching users based on their behavior or events.
+
+### Seraching users by Identity
+
+To look for a specific user by identity in UserNDot dashboard, go to Segments > Find Users > Find Users by ID > Select the appropriate id > Fill value > Click Find
+
+### Searching users based on their behavior or events
+
+
 
 
 [![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")

@@ -38,11 +38,13 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'fundamentals/about', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'fundamentals/about', label: 'Documentation'},
+    // {doc: 'doc4', label: 'API'},
+    // {page: 'help', label: 'Help'},
+    // {blog: true, label: 'Blog'},
     {href: 'https://userndot.com', label: 'Try UserNDot'},
+      {href: 'https://userndot.com/login', label: 'Login'},
+      {href: 'https://userndot.com/register', label: 'Demo'},
   ],
 
   // If you have users set above, you add it here:
