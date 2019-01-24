@@ -52,11 +52,43 @@ Event attributes can be defined as the property of an event. For Example an even
 | Name | Type | Options | Description |
 |---|---|---|---|
 | `name` | String `mandatory` | | Name of the event (Should be unique) |
-| `latitude` | String | | Latitude of the location of user `Note: Latidude and Logitude should be given in pair`|
-| `longitude` | String | | Longitude of the location of user `Note: Latidude and Logitude should be given in pair`|
-| `country` | String | | Name of country |
-| `state` | String | | Name of state |
-| `city` | String | | Name of city |
 | `lineItem` | List of LineItem | | Fields of a single line item are: price (Integer), currency (String), product (String), categories(List of String), tags(List of String), quantity(Integer), properties(Map of <String, Any>) |
 | `attributes` | Map of <String, Any> | | Key Value pairs for custom event attributes |
 
+### Attributes which are automatically tracked with any event
+- Date and time of the event
+- Details of the user who performed the event.
+- Technical details like Mobile App version, SDK version, OS, Browser etc.
+- Location Details (if enabled in the mobile app or set with js sdk from website)
+
+
+## Tracking an event
+```js
+//Tracking an Event
+_und('event',{
+    "name":"Searched",
+    "attributes": {
+        "searchTerm": "Shoes",
+        "minPrice": 1000,
+        "maxPrice": 2000
+    }
+});
+```
+
+Tracking a special event 'Charged' (May contain lineItem details (Would be useful for revenue reports))
+```js
+//Tracking Charged Event
+_und('event',{
+        "name": "Charged",
+        "attributes": {
+            "at": new Date("2018-05-02T13:21:40.059Z")
+        },
+        "lineItem": [{
+            "price": 200,
+            "currency": "USD",
+            "product": "CORE JAVA Volume 1",
+            "categories": ["Book", "Programming"],
+            "quantity": 2
+        }]
+    });
+```

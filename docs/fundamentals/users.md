@@ -82,7 +82,8 @@ An example of a custom user attribute could be
 | Custom field Key | Custom field value |
 |---|---|
 | userType | Gold |
-| signedInOn | 2013-05-02 |
+| profession | Architect |
+| organization | ABC Associates |
 
 While sending a message, there custom attributes could be used as fillers in your message. The template parser would
 automatically parse these fillers and replace them with the specified values for that user.
@@ -100,6 +101,23 @@ To look for a specific user by identity in UserNDot dashboard, go to Segments > 
 ### Searching users based on their behavior or events
 
 
-
-
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+## Tracking a user profile
+Whenever a user logs in, register, subscribe, etc, you could track the user profile as below. As soon as the user profile is tracked,
+all the events associated would get marked to this user profile.
+```js
+//Tracking a user profile
+_und('profile',{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test@example.com",
+    "mobile": "12342342342",
+    "dob": "1990-01-01",
+    "uid": "MyUserId0001",
+    "gender": "Male",
+    "additionalInfo": {
+        "customerType": "Gold",
+        "profession": "Architect",
+        "organization": "ABC Associates"
+    }
+});
+```
