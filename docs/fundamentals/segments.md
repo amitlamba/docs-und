@@ -43,18 +43,22 @@ To make the above simpler let’s see how an e-commerce website segments its use
 Step 1 – Segment List
   Log in to your UserNDot dashboard by putting in your credentials. Navigate to Segment in menu, by clicking it you will reach a page that displays list of segments that have been created (or will be created).
 
+![Segmentation List](/d/img/Segmentation/Screenshot-Segment-List.png)
   <!---Screenshot Segment List.png--->
 Step 2 - Click on the button on top right corner which will open a segment create page.
 
 On segment create page, you can choose
 
   1. Actions that user did e.g. choose action charged you can select date range both absolute, like between two dates from a date picker as well as relative date range like in last 100 days. You can further add filters on that action by choosing properties and custom attributes related to that event, example amount greater than 500, done the first time, or colour of the product etc. You can also specify the count or sum on any property e.g. users who did it 3 time or users whose total amount is greater than 700. 
+  ![segment create page example actions](/d/img/Segmentation/segment-create-page-example-actions.png)
   <!---segment create page example actions.png--->
 
   2. Attributes of users like its geography, demographics, age, gender etc. Technical attributes like OS browser device type etc.
+  ![segment create page example actions2](/d/img/Segmentation/segment-create-page-example-actions2.png)
   <!---segment create page example actions2.png--->
   
   3. Actions that user didn't do, this will filter all users who didn't do these actions and as in case of did action you can specify attribute filters as well.
+  ![segment create page example actions4](/d/img/Segmentation/segment-create-page-example-actions4.png)
   <!---segment create page example actions4.png--->
 
 Step 3 - Choose one or any of the combinations of above and press create segment, give it a name. Congratulations your first segment is created.You can see the created segment in the list.
@@ -65,6 +69,7 @@ Step 3 - Choose one or any of the combinations of above and press create segment
   * See the total number of users in the particular segment
   * See all the associated campaigns of the present segment.
   * Help you predict the number of people you could reach through a specific campaign for example 30 out of 100 could be reached through email marketing.
+  ![segment detail page with reachability count](/d/img/Segmentation/segment-detail-page-with-reachability-count.png)
   <!---segment detail page with reachability count.png--->
 
   #### Analytics
