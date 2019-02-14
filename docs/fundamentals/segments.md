@@ -40,7 +40,7 @@ To make the above simpler let’s see how an e-commerce website segments its use
 
 ### The below step by step procedure will guide you through the process of segmenting your users:
 
-Step 1 – Segment List
+Step 1 –
   Log in to your UserNDot dashboard by putting in your credentials. Navigate to Segment in menu, by clicking it you will reach a page that displays list of segments that have been created (or will be created).
 
 ![Segmentation List](/d/img/Segmentation/Screenshot-Segment-List.png)
