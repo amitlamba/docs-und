@@ -28,9 +28,6 @@ To make the above simpler let’s see how an e-commerce website segments its use
 > **Important :** You can keep a watch on them and see how the count of segment users is behaving over time.
  Moreover, you can also reach out to a particular segment with campaigns created directly from segment reachability
 
-
-
-
 ### What can you do with segments?
 
   Segmentation of the user base makes it easier for you to personalize marketing campaigns.
@@ -47,9 +44,9 @@ Step 1 –
   <!---Screenshot Segment List.png--->
 Step 2 - Click on the button on top right corner which will open a segment create page.
 
-On segment create page, you can choose
+On segment create page, you can segment the user based on 
 
-  1. Actions that user did e.g. choose action charged you can select date range both absolute, like between two dates from a date picker as well as relative date range like in last 100 days. You can further add filters on that action by choosing properties and custom attributes related to that event, example amount greater than 500, done the first time, or colour of the product etc. You can also specify the count or sum on any property e.g. users who did it 3 time or users whose total amount is greater than 700. 
+  1. Actions that user did previously based on the data e.g. an action user did on a particular date, between two dates as well as relative date range like in last 100 days. You can further add filters on that action by choosing properties and custom attributes related to that event for example, amount greater than 500, done the first time, or colour of the product etc. You can also specify the count or sum on any property e.g. users who did it 3 time or users whose total amount is greater than 700. 
   ![segment create page example actions](/d/img/Segmentation/segment-create-page-example-actions.png)
   <!---segment create page example actions.png--->
 
