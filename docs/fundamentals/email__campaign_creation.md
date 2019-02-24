@@ -40,12 +40,3 @@ For creating a new Email campaign you need to first click on create new campaign
 ![email-creation-image8](/d/img/CampaignCreation/Email-Campaign-Creation-8.png)
 
 ***Congratulations! Your Email campaign is created.***
-
-### Stopping a campaign - 
-There may be a number of reasons to stop the campaign you created before. Through UserNDot you can easily stop a campaign by following the bellow steps:
-
-#### Step 1 – Go to campaign section through the dashboard once logged in.
-
-#### Step 2 – Click the Stop campaign button of the respective campaign you want to stop.
-![email-creation-image9](/d/img/CampaignCreation/Email-Campaign-Creation-9.png)
-
