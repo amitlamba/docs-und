@@ -13,7 +13,7 @@ We assume that you have already integrated an Email service provider. [Click her
 Now that you have completed integrating your ESP let’s look at the steps that need to be followed for creating an Email campaign – 
 
 #### Step 1 – Creating a new Email campaign
-For creating a new Email campaign you need to first click on create new campaign button and choose Email from the drop-down menu.
+For creating a new Email campaign you need to first click on **Create New Campaign** button and choose Email from the drop-down menu.
 ![email-creation-image1](/d/img/EmailCampaignCreation/Email-Campaign-Creation-1.png)
 
 #### Step 2 – You need to tell us few thing before we set everything up for you –

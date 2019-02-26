@@ -13,7 +13,7 @@ UserNDot provides a seamless way for you to manage your SMS campaign. SMS could 
 Now that you have completed integrating your ESP let’s look at the steps that need to be followed for creating an SMS campaign – 
 
 #### Step 1 – Creating a new SMS campaign
-For creating a new SMS campaign you need to first click on create new campaign button and choose SMS from the drop-down menu.
+For creating a new SMS campaign you need to first click on **Create New Campaign** button and choose SMS from the drop-down menu.
 ![SMS-creation-image1](/d/img/SMSCampaignCreation/SMS-CampaignCreation-1.png)
 
 #### Step 2 – You need to tell us few thing before we set everything up for you –
