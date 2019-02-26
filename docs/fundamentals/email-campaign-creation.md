@@ -1,7 +1,7 @@
 ---
-id: CampaignCreation
-title: EmailCampaignCreation
-sidebar_label: EmailCampaignCreation
+id: email-campaign-creation
+title: Email Campaign Creation
+sidebar_label: Email Campaign Creation
 ---
 ## Overview
 
@@ -14,29 +14,29 @@ Now that you have completed integrating your ESP let’s look at the steps that 
 
 #### Step 1 – Creating a new Email campaign
 For creating a new Email campaign you need to first click on create new campaign button and choose Email from the drop-down menu.
-![email-creation-image1](/d/img/CampaignCreation/Email-Campaign-Creation-1.png)
+![email-creation-image1](/d/img/EmailCampaignCreation/Email-Campaign-Creation-1.png)
 
 #### Step 2 – You need to tell us few thing before we set everything up for you –
     
 1.   Give your Campaign a name. Tell us who you want to send it to; it may be for all your users or for a particular segment.
-![email-creation-image2](/d/img/CampaignCreation/Email-Campaign-Creation-2.png)
+![email-creation-image2](/d/img/EmailCampaignCreation/Email-Campaign-Creation-2.png)
 
 2.  Tell us whether you want to send email once – It’s a onetime engagement where you will be sending the email once to your user best suited if you want to make any announcement or send a welcome message to the user.      
-![email-creation-image3](/d/img/CampaignCreation/Email-Campaign-Creation-3.png)
+![email-creation-image3](/d/img/EmailCampaignCreation/Email-Campaign-Creation-3.png)
 
 * Or on multiple dates – Hence, engaging your users multiple times best suited when you want to promote a sale or reengage the user with your product.
-![email-creation-image4](/d/img/CampaignCreation/Email-Campaign-Creation-4.png)
+![email-creation-image4](/d/img/EmailCampaignCreation/Email-Campaign-Creation-4.png)
 
 * Or Recurring – UserNDot can automate your campaign by sending them at regular interval (daily, monthly, and weekly). Best suited to retain your customer and brand building.
-![email-creation-image5](/d/img/CampaignCreation/Email-Campaign-Creation-5.png)
+![email-creation-image5](/d/img/EmailCampaignCreation/Email-Campaign-Creation-5.png)
 
 * You can also schedule your campaign in future – UserNdot can automate your campaign so that you can send the emails in future. Just put in the date and time and leave everything on us.
-![email-creation-image6](/d/img/CampaignCreation/Email-Campaign-Creation-6.png)
+![email-creation-image6](/d/img/EmailCampaignCreation/Email-Campaign-Creation-6.png)
 
 #### Step 3 – Define who, and also your service provider. Set Conversion Event and hit continue. 
-![email-creation-image7](/d/img/CampaignCreation/Email-Campaign-Creation-7.png)
+![email-creation-image7](/d/img/EmailCampaignCreation/Email-Campaign-Creation-7.png)
 
 #### Step 4 – Define your Email in our Email Editor. You can write your own message or use our pre built templates and add contents to it.
-![email-creation-image8](/d/img/CampaignCreation/Email-Campaign-Creation-8.png)
+![email-creation-image8](/d/img/EmailCampaignCreation/Email-Campaign-Creation-8.png)
 
 ***Congratulations! Your Email campaign is created.***

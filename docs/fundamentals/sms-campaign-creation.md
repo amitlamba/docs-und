@@ -1,7 +1,7 @@
 ---
-id: CampaignCreation
-title: SMSCampaignCreation
-sidebar_label: SMSCampaignCreation
+id: sms-campaign-creation
+title: SMS Campaign Creation
+sidebar_label: SMS Campaign Creation
 ---
 ## Overview
 
