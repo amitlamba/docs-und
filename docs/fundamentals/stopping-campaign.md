@@ -1,10 +1,8 @@
 ---
-id: overview
-title: Overview
-sidebar_label: Overview
+id: stoping-campaign
+title: Stopping Campaign
+sidebar_label: Stopping Campaign
 ---
-UserNDot
-
 ## Overview
 
 There may be a number of reasons to stop the campaign you created before. Less conversion rate budget constraint etc because of which you may need to stop a campaign you created before.

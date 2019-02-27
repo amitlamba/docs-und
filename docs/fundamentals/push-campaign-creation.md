@@ -39,7 +39,7 @@ For creating a new Push campaign you need to first click on **Create New Campaig
 #### Step 3 – Define who, and also your service provider. Set Conversion Event and hit continue. 
 ![push-creation-image7](/d/img/PushCampaignCreation/Push-Campaign-Creation-7.png)
 
-#### Step 4 – Define your Push Notification conten in our Editor. You can write your own message or use our pre built templates and add contents to it.
+#### Step 4 – Define your Push Notification content in our Editor. You can write your own message or use our pre built templates and add contents to it.
 
 
 ***Congratulations! Your Push Notification campaign is created.***
