@@ -8,7 +8,7 @@ sidebar_label: SMS Campaign Creation
 UserNDot provides a seamless way for you to manage your SMS campaign. SMS could be the best way to engage your users through mobile channel. Mobile has become a necessity of the 21st century with over 62 percent of the world’s population owning a mobile phone, making it a channel that offers the widest reach possible. SMS enables you to send short and precise messages to your user. You can use it to send promotional text, engage the user by sending links to offers or send one-time brief info of the bought product or service as a confirmation. Through UseNDot you could easily set up an SMS campaign which will allow you to send SMS anytime you want. You could send personalized SMS or use our pre-built templates and modify them accordingly
 
 ### First things First –
- UserNDot doesn’t directly send SMS, it is rather done by a third party SMS provider like MSG91, 2Factor etc. [Click here](/d/docs/fundamentals/integrationOfEmail) to know more about how to integrate SMS provider to your campaign.
+ UserNDot doesn’t directly send SMS, it is rather done by a third party SMS provider like MSG91, 2Factor etc.[Click here](/d/docs/fundamentals/SMS-Integration) to know more about how to integrate SMS provider to your campaign.
 
 Now that you have completed integrating your ESP let’s look at the steps that need to be followed for creating an SMS campaign – 
 
