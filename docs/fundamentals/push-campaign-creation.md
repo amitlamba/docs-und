@@ -11,7 +11,7 @@ Push notification is a short message, an image, or a link which appears on the n
  
 
 ### First things First –
-We assume that you have already integrated [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/). To know more about how to integrate FCM to your campaign [Click here](/d/docs/fundamentals/integrationOfPush).
+We assume that you have already integrated [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/). To know more about how to integrate FCM to your campaign [Click here](/d/docs/integration/PushNotification-Integration).
 
 #### Let’s look at the steps that need to be followed for creating a Push campaign – 
 

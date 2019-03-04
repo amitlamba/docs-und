@@ -8,7 +8,7 @@ sidebar_label: Email Campaign Creation
 UserNdot helps you manage your Email campaign effortlessly. You can either write your own Email or use our pre-built email [templates](/d/docs/fundamentals/templates) to reach your users. UserNdot doesn’t directly send Emails. The Emails are delivered through a third-party service provider (MailChimp, SendInBlue, and Amazon) which could be easily integrated by following some simple steps. You can send this Email to all your users or to a particular [segment of users](/d/docs/fundamentals/segments).
 
 ### First things First –
-We assume that you have already integrated an Email service provider. [Click here](/d/docs/fundamentals/Email-Integration) to know more.
+We assume that you have already integrated an Email service provider. [Click here](/d/docs/integration/Email-Integration) to know more.
 
 Now that you have completed integrating your ESP let’s look at the steps that need to be followed for creating an Email campaign – 
 
