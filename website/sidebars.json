@@ -1,11 +1,11 @@
 {
   "docs": {
     "Fundamentals": ["fundamentals/about", "fundamentals/users", "fundamentals/events", "fundamentals/templates", "fundamentals/segments", "fundamentals/campaigns"],
-    "Campaigns": ["fundamentals/email-campaign-creation", "fundamentals/sms-campaign-creation",  "fundamentals/push-campaign-creation"],
+    "Campaigns": ["fundamentals/email-campaign-creation", "fundamentals/sms-campaign-creation",  "fundamentals/push-campaign-creation", "fundamentals/webpush-campaign-creation", "fundamentals/stopping-campaign"],
     "Android": ["android/overview", "android/user-tracking", "android/event-tracking", "android/push-notification", "android/settings", "android/troubleshooting"],
     "iOS": ["ios/overview"],
     "Website": ["web/overview", "web/user-tracking", "web/event-tracking", "web/push-notification", "web/settings", "web/troubleshooting"],
-    "Integration": ["integration/overview"],
+    "Integration": ["integration/Email-Integration", "integration/SMS-Integration", "integration/PushNotification-Integration", "integration/WebPush-Integration"],
     "REST APIs": ["rest-apis/overview"],
     "Examples": ["examples/overview"],
     "Others": ["others/overview"]
