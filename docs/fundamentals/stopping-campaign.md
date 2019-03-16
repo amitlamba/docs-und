@@ -1,5 +1,5 @@
 ---
-id: stoping-campaign
+id: stopping-campaign
 title: Stopping Campaign
 sidebar_label: Stopping Campaign
 ---

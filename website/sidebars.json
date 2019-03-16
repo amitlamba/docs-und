@@ -5,7 +5,7 @@
     "Android": ["android/overview", "android/user-tracking", "android/event-tracking", "android/push-notification", "android/settings", "android/troubleshooting"],
     "iOS": ["ios/overview"],
     "Website": ["web/overview", "web/user-tracking", "web/event-tracking", "web/push-notification", "web/settings", "web/troubleshooting"],
-    "Integration": ["integration/Email-Integration", "integration/SMS-Integration", "integration/PushNotification-Integration", "integration/WebPush-Integration"],
+    "Integration": ["integration/email-integration", "integration/sms-integration", "integration/pushnotification-integration", "integration/webpushnotification-integration"],
     "REST APIs": ["rest-apis/overview"],
     "Examples": ["examples/overview"],
     "Others": ["others/overview"]
