@@ -4,8 +4,10 @@ title: User Tracking
 sidebar_label: User Tracking
 ---
 
-User tracking on UserNDot is very simple and straight forward.
-All you need to do is Login into you account. Initialize the javascript SDK, and send a profile request.
+UserNDot provides a seamless way to track your user's properties as attributes. A user profile is created automatically for each user visiting your website. It all starts with a blank profile which does not contain any useful information, this anonymous profile needs to be filled with identifiable information like username, email, phone number which could be used further for your future campaigns. UserNDot sets all the attributes to the user. These attributes are important as it helps you to segment your users and initiate targeted campaign. 
+
+All you need to do is Login into your account. Initialize the javascript SDK, and send a profile request.
+
 The code for sending the profile request would look like:
 
 ```js
@@ -28,18 +30,41 @@ _und('profile',{
 In the above code, email, uid, firstName are mandatory fields.
 However, if you give more information, you can get more out of the system.
 We recommend giving as much information as possible in the user profile.
+The additionalInfo attribute helps you define your custom user attribute. 
 
-Logging out of the system.
+Clicking this button will make the user logout from our system.
+To enable this client needs to call - 
 
 ```js
 
 _und('logout');
 ```
 
-Start Location tracking of the user
+When you want to track a user location then you need to add
+
 ```js
 _und('location',{active:true});
 ```
+on appropriate button where chance of location allowed is max. 
+
+When you want users to subscribe to your notification you need to use the following code - 
+
+```js
+_und('notification-allow',{
+message:'Would you like to get Notifications?',
+allowBtnTxt:'Allow',
+disallowBtnTxt:'Disallow',
+allowBtnColor:'#ff3377',
+disallowBtnColor:'#ff3377'
+})
+```
+* message : That client want to show on click of this action.
+* allowBtnTxt : Text that he want to show on allow button
+* disallowBtnTxt : Text that he want to show on disallow button
+* allowBtnColor : Color code of allow button
+* disallowBtnColor : color code of disallow button. eg for red #FF0000
+
+Below is an example code to give you some more idea - 
 
 ```js
 <script type="text/javascript">
