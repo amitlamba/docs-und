@@ -4,20 +4,18 @@ title: Event Tracking
 sidebar_label: Event Tracking
 ---
 
-An event could be tracked by userndot. For tracking an event, you need to add a small javascript code.
-An event is identified by its name, so its name should be unique and case sensitive.
-An event could also have attributes. Attributes are nothing but the properties of an event.
-The same event could be tracked with different attribute values. For example,
-if an event is Searched, it could have an attribute searchTerm and categoryOfSearch, which may have different value each time a search action is performed.
+To make your marketing campaign successful you need to have a way to track all your events. In a broader sense events are triggers provided by your users which can be tracked. For example, in case of an e-commerce website when a user adds an item to its wish list, the website would want to record the "Added to Wish-List" event along with all the product details. Events can play an important role in segmenting users which in turn may provide you with a good rate of engagement from your campaign.
 
-Tracking an event through javascript
+UserNDot provides one of a kind event tracking mechanism, to activate the same you need to add a small javascript code.
+An event is identified by its name.
 
-Prerequisites for tracking an event.
+> **Important :** Name of an event is unique and case sensitive.
 
-Step 1: Initialize the SDK.
+An event could also have attributes. Attributes are nothing but the properties of an event. The same event could be tracked with different attribute values. For example, if an event is searched, it could have an attribute searchTerm and categoryOfSearch, which may have different value each time a search action is performed.
 
+Tracking an event happens through our javascript SDK. 
 
-Code snppet to track an event
+For example, if you need to track a "Searched" event of "Laptop" under "Electronic Items" category you could using the following code snippet - 
 
 ```js
 _und('event',{
@@ -28,8 +26,8 @@ _und('event',{
     }
 });
 ```
+Recording more properties with the event -   
 
-Special parameters for charged event
 ```js
 _und('event',{
     "name": "charged",
@@ -52,4 +50,17 @@ Field `lineItem` could be sent in case of `charged` event.
 A line item could contain price, currency, product, categories, and quantity.
 It would help in generating revenue and sale reports.
 
-Sending events using Angular framework:
+You can also track some common events like user login, user logout, click, conversion etc.
+
+Code snippet for tracking a user login action is given below - 
+
+```js
+_und('profile', {
+            'firstName': 'jogendra singh',
+            'gender': 'Male',
+            'uid': 'user1',
+            'email': 'jogendra@gmail.com',
+            'mobile': 9999999999,
+            'dob': 'yyyy-mm-dd'
+        })
+     ```   
