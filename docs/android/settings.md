@@ -40,8 +40,10 @@ var userNDot:UserNdot
 userNDot=UserNDot.getDefaultInstance(getApplicationContext())
 ```
 
+## **Step 4.** Integrate Fcm  
 ### Registering Fcm messaging service
 
+Add below code in AndroidManifest.xml file
 ```kotlin
 <service android:name="com.userndot.sdk.FCMMessagingService">
     <intent-filter>
@@ -52,7 +54,7 @@ userNDot=UserNDot.getDefaultInstance(getApplicationContext())
 ```
 
 ### Registering Und push notification receiver
-
+Add below code in AndroidManifest.xml file
 ```kotlin
 <application>
     <receiver android:name=".UNDPushNotificationReceiver"
@@ -62,6 +64,8 @@ userNDot=UserNDot.getDefaultInstance(getApplicationContext())
 ```
 
 ### Registering und push notification service
+
+Add below code in AndroidManifest.xml file
 
 ```kotlin
 <service
