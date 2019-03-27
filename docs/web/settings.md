@@ -102,7 +102,7 @@ A Web browser like chrome can run scripts in the background separate from a webp
 To implement it you need to first download the service worker file provided by UserNDot and copy it to the root document of your website. After copying it you need to specify the location of service worker here- 
 
 ```js
-     serviceworker: "location of service worker in your project that you get from userndot"
+    serviceworker: "location of service worker in your project that you get from userndot"
 ```
 
 
