@@ -4,7 +4,7 @@ title: Push Notification
 sidebar_label: Push Notification
 ---
 
-Web Push notifications are alert-style messages which slide in at the top or bottom right corner of a desktop screen with short but important information. Just like push notifications, you could send them even when the users are not on your website. Currently, we support Fcm cloud messaging to send web notification to your user.
+Web Push notifications are alert-style messages which slide in at the top or bottom right corner of a desktop screen with short but important information. Just like push notifications, you could send them even when the users are not on your website. Currently, we support Fcm cloud messaging to send web notification to your user. [Click here](/d/docs/integration/webpushnotification-integration) to know more.
 
 You could take help of our templates to create your notifications be it a banner or a box type push notification.
 
@@ -19,8 +19,3 @@ Web Push notification could be helpful to you in many ways -
 To send Web Push notification you need to configure the Google Firebase base cloud messaging (FCM) messaging to your campaign.
 
 > **Important :** You can send Web Push Notifications only to the browsers supporting FCM example Chrome, Firefox etc.    
-
-
-
-
-

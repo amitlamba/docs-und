@@ -10,7 +10,7 @@ Web Push notifications are alert-style messages which slide in at the top or bot
 UserNDot’s best in class campaign management and tactical [segmentation](/d/docs/fundamentals/segments) procedures help you to send web push notification seamlessly. UserNDot automates the procedure and sends the notification the way you want them to be sent (custom as well as personalized templates), the time you want them to be sent (time-sensitive), and to whom you want them to be sent ([segmentation](/d/docs/fundamentals/segments)). You just need to define everything in advance while creating the campaign and leave rest on us. UserNDot supports web push notification for both desktop and mobile.
 
 ### First things First –
-We assume that you have already configured and integrated web push notification to your console. [Click here](/d/docs/integration/WebPush-Integration) to know more.
+We assume that you have already configured and integrated web push notification to your console. [Click here](/d/docs/integration/webpushnotification-integration) to know more.
 
 #### Let’s look at the steps that need to be followed for creating a WebPush campaign – 
 
