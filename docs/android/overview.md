@@ -20,12 +20,11 @@ Manually: Download and copy the jar file from a path given to you by UserNDot to
 
 Automatically: You need to include the below dependency in your build.gradle file.
 
-``
-dependencies
-{
+```kotlin
+dependencies{
     implementation "groupId:artificatId:version"
 }
-``
+```
 
 > **Note :** "groupId", "artifcatid" and "version" will be provided to you by userndot later.
 
