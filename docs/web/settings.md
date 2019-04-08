@@ -3,7 +3,7 @@ id: settings
 title: Settings
 sidebar_label: Settings
 ---
-This guide will help you with the detailed steps to configure all the settings required to send Web Push Notifications before that, we would like you to go through [Push Notification Integration](/docs/integration/WebPush-Integration) to have a basic idea about Web push Notification and Integrating [Firebase base cloud messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/) to it.
+This guide will help you with the detailed steps to configure all the settings required to send Web Push Notifications before that, we would like you to go through [Web Push Notification Integration](/d/docs/integration/webpushnotification-integration) to have a basic idea about Push Notification and Integrating [Firebase base cloud messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/) to it.
 
 ### Integrating UserNDot web push to your website
 

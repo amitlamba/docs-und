@@ -3,26 +3,35 @@ id: settings
 title: Settings
 sidebar_label: Settings
 ---
+This guide will help you with the detailed steps to configure all the settings required to send Push Notifications before that, we would like you to go through [Push Notification Integration](/d/docs/integration/pushnotification-integration) to have a basic idea about Web push Notification and Integrating [Firebase base cloud messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/) to it.
 
-Adding UserNDot sdk to your app.
+Below steps need to be followed for integrating Android SDK to your Android application. 
 
 ## **Step 1.** Installing SDK
 
-you can install sdk in two way.
-1. Using Android Studio with gradle
+There are basically two ways of installing Android SDK
+
+1. Using Android Studio with Gradle
 1. Manual
 
-**`Using Android Studio and gradle`**
+**`Using Android Studio and Gradle`**
+
+Add the following dependency in `build.gradle` file -
+
 ```kotlin
 dependencies{
     implementation "groupId:artificatId:version"
 }
 ```
+
 **`Manual`**
 
-Download the UserNDot SDK and unzip it.And copy the jar file into lib directory of your project.
+Download the UserNDot SDK the location to which will be provided later and unzip it. Copy all the jar files into the lib directory of your project.
 
-## **Step 2.** Adding UserNDot credential in your AndroidManifest file.
+## **Step 2.** Adding UserNDot credential in your AndroidManifest.xml file.
+
+You need to define your credential of UserNDot in the AndroidManifest.xml file Copy and paste the following snippet to the file and you are good to go. 
+
 ```kotlin
 <meta-data
     android:name="USERNDOT_USER_ID"
@@ -33,17 +42,22 @@ Download the UserNDot SDK and unzip it.And copy the jar file into lib directory 
         
 ```
 
-## **Step 3.** Instantiate the UserNDot
-In you main activity onCreate method add below code.
+## **Step 3.** Instantiate UserNDot
+In your main activity onCreate method add below code.
+
 ```kotlin
 var userNDot:UserNdot
 userNDot=UserNDot.getDefaultInstance(getApplicationContext())
 ```
 
-## **Step 4.** Integrate Fcm  
-### Registering Fcm messaging service
+## **Step 4.** Integrate Fcm
+
+FCM is a cloud-based cross-platform messaging solution that lets you send push notifications to your [segmented users](/d/docs/fundamentals/segments) into their notifications tray. As you already know UserNdot doesn’t directly send Push Notifications. To do so you need to integrate [Firebase base cloud messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/). 
+
+### To register FCM messaging service
 
 Add below code in AndroidManifest.xml file
+
 ```kotlin
 <service android:name="com.userndot.sdk.FCMMessagingService">
     <intent-filter>
@@ -52,8 +66,10 @@ Add below code in AndroidManifest.xml file
     </intent-filter>
 </service>
 ```
+> **Note :** Once you have registered the FCM messaging service you also need to register UserNDot push notification service and UserNDot push notification receiver. The code to do so is shared below. 
 
-### Registering Und push notification receiver
+### Registering UserNDot push notification receiver
+
 Add below code in AndroidManifest.xml file
 ```kotlin
 <application>
@@ -63,7 +79,7 @@ Add below code in AndroidManifest.xml file
 </application>
 ```
 
-### Registering und push notification service
+### Registering UsernDot push notification service
 
 Add below code in AndroidManifest.xml file
 
