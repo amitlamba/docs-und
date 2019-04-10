@@ -10,16 +10,18 @@ Push notification is a short message, an image, or a link which appears on the n
 ***With UserNDot you could easily set up push campaigns***. Our best in class campaign management system will automate your push campaign in a way which will allow you to send custom or personalized push notifications to segmented users on a particular date-time or when they act in a particular way. Once a campaign is created and has been sent, UserNDot analytic tool will help you with all the details like how many push notifications were sent, the conversion rate, click percentage etc. Just following a few steps will let you integrate [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/) which will, in turn, send push notifications to the user.
  
 
-### First things First –
+## First things First
 We assume that you have already integrated [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/). To know more about how to integrate FCM to your campaign [Click here](/d/docs/integration/pushnotification-integration).
 
 #### Let’s look at the steps that need to be followed for creating a Push campaign – 
 
-#### Step 1 – Creating a new Push campaign
+## Step 1 
+**Creating a new Push campaign**
 For creating a new Push campaign you need to first click on **Create New Campaign** button and choose either iOS or AndroidPush from the drop-down menu.
 ![push-creation-image1](/d/img/PushCampaignCreation/Push-Campaign-Creation-1.png)
 
-#### Step 2 – You need to tell us few thing before we set everything up for you –
+## Step 2 
+**You need to tell us few thing before we set everything up for you**
     
 1.   Give your Campaign a name. Tell us who you want to send it to; it may be for all your users or for a particular segment.
 ![push-creation-image2](/d/img/PushCampaignCreation/Push-Campaign-Creation-2.png)
@@ -36,10 +38,12 @@ For creating a new Push campaign you need to first click on **Create New Campaig
 * You can also schedule your campaign in future – UserNdot can automate your campaign so that you can send the notifications in future. Just put in the date and time and leave everything on us.
 ![push-creation-image6](/d/img/PushCampaignCreation/Push-Campaign-Creation-6.png)
 
-#### Step 3 – Define who, and also your service provider. Set Conversion Event and hit continue. 
+## Step 3
+**Define who, and also your service provider. Set Conversion Event and hit continue.** 
 ![push-creation-image7](/d/img/PushCampaignCreation/Push-Campaign-Creation-7.png)
 
-#### Step 4 – Define your Push Notification content in our Editor. You can write your own message or use our pre built templates and add contents to it.
+## Step 4 
+**Define your Push Notification content in our Editor. You can write your own message or use our pre built templates and add contents to it.**
 
 
 ***Congratulations! Your Push Notification campaign is created.***

@@ -9,9 +9,13 @@ There may be a number of reasons to stop the campaign you created before. Less c
 
 Here are the steps you would need to follow in order to stop a campaign -
 
-#### Step 1 – Once logged in navigate to the campaign section.
+## Step 1
+Once logged in navigate to the campaign section.
 
-#### Step 2 – Click the Stop campaign button of the respective campaign you want to stop.
+## Step 2 
+Click the Stop campaign button of the respective campaign you want to stop.
+
 ![stopping-campaign](/d/img/Stopping-campaign/Stopping-Campaign.png)
 
-#### Step 3 - The campaign will be stopped.
+## Step 3
+**The campaign will be stopped.**
