@@ -4,8 +4,8 @@ title: Troubleshooting
 sidebar_label: Troubleshooting
 ---
 
-During development we recommanded you to use UserNDot.LogLevel.DEBUG mode. It log warning and other importent message on android logging screen. Our default log level is UserNDot.LogLevel.INFO. 
-You can do it by setting the log level to debug mode.For production environment we recommended you to use log level off mode.You can enable it using UserNDot.LogLevel.OFF. 
+During development, we recommand you to use UserNDot.LogLevel.DEBUG mode. It logs warning and other important message on android logging screen. Our default log level is UserNDot.LogLevel.INFO. 
+You can do it by setting the log level to debug mode. For production environment, we recommended you to use log level off mode. You can enable it using UserNDot.LogLevel.OFF. 
 
 ## FAQ
 
