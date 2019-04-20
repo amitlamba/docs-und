@@ -8,7 +8,8 @@
     "Integration": ["integration/email-integration", "integration/sms-integration", "integration/pushnotification-integration", "integration/webpushnotification-integration"],
     "REST APIs": ["rest-apis/overview"],
     "Examples": ["examples/overview"],
-    "Others": ["others/overview"]
+    "Others": ["others/overview"],
+    "Reports":["Reports/overview"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
