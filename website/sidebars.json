@@ -9,7 +9,7 @@
     "REST APIs": ["rest-apis/overview"],
     "Examples": ["examples/overview"],
     "Others": ["others/overview"],
-    "Reports":["Reports/overview","Reports/event-report"]
+    "Reports":["Reports/overview","Reports/event-report","Reports/funnel-report"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
