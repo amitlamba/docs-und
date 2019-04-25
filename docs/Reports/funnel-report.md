@@ -42,7 +42,7 @@ Checking the default order or strict order option.
 
 ### Step 4
 
-Click the **Crete Funnel** button.
+Click the **Create Funnel** button.
 
 ## Viewing the Funnel Report
 
