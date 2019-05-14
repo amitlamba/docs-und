@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Fundamentals": ["fundamentals/about", "fundamentals/users", "fundamentals/events", "fundamentals/templates", "fundamentals/segments", "fundamentals/campaigns"],
+    "Fundamentals": ["fundamentals/about", "fundamentals/users", "fundamentals/events", "fundamentals/templates", "fundamentals/segments","fundamentals/livesegments", "fundamentals/campaigns"],
     "Campaigns": ["fundamentals/email-campaign-creation", "fundamentals/sms-campaign-creation",  "fundamentals/push-campaign-creation", "fundamentals/webpush-campaign-creation", "fundamentals/stopping-campaign"],
     "Android": ["android/overview", "android/user-tracking", "android/event-tracking", "android/push-notification", "android/settings", "android/troubleshooting"],
     "iOS": ["ios/overview"],

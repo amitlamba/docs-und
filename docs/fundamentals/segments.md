@@ -35,14 +35,15 @@ To make the above simpler let’s see how an e-commerce website segments its use
 
   Segmentation is mainly used to prioritize once target audiences.
 
-### The below step by step procedure will guide you through the process of segmenting your users:
-
-Step 1 –
-  Log in to your UserNDot dashboard by putting in your credentials. Navigate to Segment in menu, by clicking it you will reach a page that displays list of segments that have been created (or will be created).
+**The below step by step procedure will guide you through the process of segmenting your users:**
+## Steps
+### Step 1 –
+**Log in to your UserNDot dashboard by putting in your credentials. Navigate to Segment in menu, by clicking it you will reach a page that displays list of segments that have been created (or will be created).**
 
 ![Segmentation List](/d/img/Segmentation/Screenshot-Segment-List.png)
-  <!---Screenshot Segment List.png--->
-Step 2 - Click on the button on top right corner which will open a segment create page.
+
+### Step 2 - 
+**Click on the button on top right corner which will open a segment create page.**
 
 On segment create page, you can segment the user based on 
 
@@ -58,9 +59,10 @@ On segment create page, you can segment the user based on
   ![segment create page example actions4](/d/img/Segmentation/segment-create-page-example-actions4.png)
   <!---segment create page example actions4.png--->
 
-Step 3 - Choose one or any of the combinations of above and press create segment, give it a name. Congratulations your first segment is created.You can see the created segment in the list.
+### Step 3 
+**Choose one or any of the combinations of above and press create segment, give it a name. Congratulations your first segment is created.You can see the created segment in the list.**
 
-### After Math
+## After Math
 
   Once you have created Segments our Segment View Page will help you to –
   * See the total number of users in the particular segment
